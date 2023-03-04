@@ -11,12 +11,13 @@
         }
         
         header {
-            position: fixed;
+			margin: 0 auto;
+			text-align: center;
+			color: #77ADA7;
             display: block;
             width: 100%;
             max-width: 960px;
             top: -17px;
-            z-index: 1;
         }
         
         .nav-menu {
@@ -46,7 +47,6 @@
             color: #DCBCD2;
         }
         
-        
         footer {
             text-align: center;
             font-size: 10px;
@@ -56,8 +56,11 @@
 
 <body>
     <div class="contenido">
+		<header>
+			<h1>Proyecto de Scarlet Rabel Falette Peralta</h1>
+		</header>
         <main>
-            
+
             <nav class="nav-menu">
                 <ul style="list-style: none;">
                     <li><a href="/practica1.html" title="Práctica 1">
@@ -66,14 +69,17 @@
                     <li><a href="/practica2.html" title="Práctica 2">
                             Práctica 2
                         </a></li>
-                    <li><a href="/practica3.html" title="Práctica 3">
+					<li><a href="/practica3.html" title="Práctica 3">
                             Práctica 3
+                    </a></li>
+					<li><a href="/practica4.html" title="Práctica 4">
+                            Práctica 4
                     </a></li>
                 </ul>
             </nav>
         </main>
         <footer>
-            <p>Copyrignt © 2023 Scarlet Falette</p>
+            <p>Copyrignt © 2023 Scarlet Rabel Falette Peralta</p>
         </footer>
     </div>
 </body>
